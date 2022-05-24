@@ -1,0 +1,78 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+  background-color:pink;
+  color: white;
+}
+
+.sidebar {
+  background-color: rgb(218, 157, 212);
+}
+
+.maincontent {
+  background-color:lavenderblush;
+}
+
+.logotipo {
+  width: 60px;
+}
+
+.title {
+  font-size: 25px;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+.bagimage {
+  width: 40px;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+.userdata{
+  border: 1px solid rgb(255, 245, 245);
+}
+
+.promotions{
+  margin-top: 10px;
+  border: 1px solid rgb(223, 223, 223);
+}
+
+.footer {
+  background-color: #df7cec;
+  color: white;
+}
+.card{
+  margin-right:10px;
+}
+#productName-error{
+  display :block; 
+}
+#productName-error{
+  display : none; 
+}
+
+#productprice-error {
+  display:block;
+ }
+ #productprice-error {
+  display:none;
+ }
+
+#productDescription-error{
+  display:none;
+}
+#urlProductImage-error{
+  display:none;
+}
+
+.btn-primary{
+  background-color: #e9a5f1;
+  border-color: white;
+  border-radius:4px;
+
+}
