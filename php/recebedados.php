@@ -24,8 +24,9 @@ if($conn){
   echo $query;
   //realizar leitura do banco de dados   
   $resultado = mysqli_query($conn,$query);
-  if($res){
+  if($resultado){
       echo '<h2>Produto incluido com sucesso. </h2>';
+      header("Location:".$_SERVER['index.html'].""); //após adicionar um produto voltar para página principal 
   }else{
     echo '<h2>Produto não  incluido. </h2>';
     var_dump(mysqli_connect($conn));

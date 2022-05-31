@@ -135,7 +135,7 @@ function validURL(str) {
            tagDivCardBody.appendChild(tagP);
 
            tagA = document.createElement('a');
-           tagA.setAttribute('class','btn btn primary mx-auto');
+           tagA.setAttribute('class','btn btn-primary mx-auto');
            tagA.setAttribute('href','#');
            tagA.setAttribute('style','width:100%');
            textNode = document.createTextNode('Adicionar ao carrinho');
